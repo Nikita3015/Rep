@@ -1,0 +1,40 @@
+table {
+    width: 700px;
+    height: 700px;
+    border: 10px solid black; /* Граница вокруг таблицы */
+    border-spacing: 7px 5px; /* Расстояние между границ */
+   }
+
+   .greend {
+    width: 400px;
+    height: 400px; 
+    background:rgb(0, 255, 0); /* Цвет фона */
+    border: 0px ;   
+    margin: 150px;
+    position: absolute;
+   }
+
+   .container {
+    background: white;
+    width: 700px;
+    height: 700px;
+    border: 10px solid black;
+   }
+
+   .redd {
+    width: 400px;
+    height: 400px; 
+    background:red; /* Цвет фона */
+    border: 0px ;   
+    margin: 0px;
+    position: absolute;
+   }
+
+   .bliued {
+    width: 400px;
+    height: 400px; 
+    background: blue; /* Цвет фона */
+    border: 0px ;   
+    margin: 300px;
+    position: absolute;
+   }

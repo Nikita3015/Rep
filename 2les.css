@@ -1,0 +1,42 @@
+.first{
+    
+    height:200px; 
+    background: orange
+    border solid 1px 
+
+}
+table {
+    width: 100%; /* Ширина таблицы */
+    border: 0px; /* Граница вокруг таблицы */
+    border-spacing: 7px 15px; /* Расстояние между границ */
+   }
+   .tt {
+    width: 50% ;
+    height: 75px; 
+    background: #fc0; /* Цвет фона */
+    border: 0px ; /* Граница вокруг ячеек */
+     /* Поля в ячейках */ 
+   }
+   .tf { width: 100% ;
+    height: 300px; 
+    background: green; /* Цвет фона */
+    border: 0px ; /* Граница вокруг ячеек */
+     /* Поля в ячейках */ 
+
+   }
+
+   .tv { width: 33% ;
+    height: 150px; 
+    background: blue; /* Цвет фона */
+    border: 0px ; /* Граница вокруг ячеек */
+     /* Поля в ячейках */ 
+
+   }
+
+   .tc { width: 25% ;
+    height: 100px; 
+    background: grey; /* Цвет фона */
+    border: 0px ; /* Граница вокруг ячеек */
+     /* Поля в ячейках */ 
+
+   }
