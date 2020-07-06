@@ -55,7 +55,8 @@ table {
 .wrapper{
     width: 1600px;
     height: 100%;
-    margin: 0 auto;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
 
 }
 .center{
@@ -64,6 +65,70 @@ table {
 	margin: 0 auto;
 	
 
+}
+header{
+	height: 100px ;
+	background-color: #f6f9f9;
+}
+header .log{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 35px;
+	margin-left: 15px;
+	left: 10px;
+	float: left;
+}
+header .lot{
+	margin-top: 30px;
+    float: left;
+
+}
+.hueta{
+	background-image: url('./im/Image2354.png');
+	background-repeat: no-repeat;
+	max-height: 800px;
+	height: calc(100vh - 100px) ;
+
+}
+.hueta h1{
+	text-align: center;
+	font-size: 120px;
+	font-weight: bold;
+	color:#ffffff;
+	padding-top: 20vh;
+}
+.hueta i{
+	width: 600px;
+	height: 2px;
+	background-color: #15a4fa;
+	display: block;
+	margin: 0 auto;
+	margin-top: 3vh;
+}
+.hueta .descr{
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	padding-top: 4vh;
+
+}
+.hueta .btn a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	padding: 20px 35px;
+
+}
+.hueta .btn a:hover{
+	background-color: #15a4fa;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.hueta .btn{
+	text-align: center;
+	margin-top: 10vh;
 }
 .block1{
     width: 100%;
@@ -85,7 +150,7 @@ table {
 .block4{
 	width: 100%;
 	height: 700px;
-	background-image: url('/im/Layer\ 36.png');
+	background-image: url('./im/Layer\ 36.png');
 	
 }
 h2{
@@ -93,7 +158,7 @@ h2{
 	color: #2d3950;
 	text-align: center;
 	padding-top: 80px;
-	padding-bottom: 0px;
+	padding-bottom: 15px;
 	font-family: 'Lato', sans-serif;
 }
 .d{
@@ -139,6 +204,7 @@ h3{
 	color: #2d3950;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
+	padding-bottom: 10px;
 }
 .h{
 	font-size:15px ;
@@ -180,7 +246,7 @@ h3{
 	float: left;
 	display: inline-block;
 	margin-top: 80px;
-	background-image: url('/im/Normal.png');
+	background-image: url('./im/Normal.png');
 	width: 360px;
 	height: 260px;
 }
@@ -327,7 +393,7 @@ h3{
 display: inline-block;
 }
 .uy1:hover{
-	background-image: url('/im/Hober45.png');
+	background-image: url('./im/Hober45.png');
 }
 .uy2{
 	display: inline-block;
@@ -335,21 +401,21 @@ display: inline-block;
 
 }
 .uy2:hover{
-	background-image: url('/im/Hober55.png');
+	background-image: url('./im/Hober55.png');
 }
 .uy3{
 	display: inline-block;
 
 }
 .uy3:hover{
-	background-image: url('/im/Hober666.png');
+	background-image: url('./im/Hober666.png');
 }
 .uy4{
 	display: inline-block;
 
 }
 .uy4:hover{
-	background-image: url('/im/Hober7676.png');
+	background-image: url('./im/Hober7676.png');
 }
 .ob{
 	width: 200px;
