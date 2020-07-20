@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+
+}.container div{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+.container div:nth-child(2){
+    height: 300px;
+}

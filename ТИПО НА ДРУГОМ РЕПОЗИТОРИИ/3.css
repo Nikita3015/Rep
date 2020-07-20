@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    align-items: center;
+}
+
+.container .yel{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .yel .red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}

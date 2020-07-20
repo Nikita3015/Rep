@@ -53,14 +53,15 @@ table {
 
 
 .wrapper{
-    width: 1600px;
+    max-width: 1600px;
     height: 100%;
 	margin: 0 auto;
 	font-family: 'Lato', sans-serif;
 
 }
 .center{
-    width: 1150px;
+	max-width: 1150px;
+	width: 100%;
     height: 100%;
 	margin: 0 auto;
 	
@@ -98,7 +99,7 @@ header .lot{
 	padding-top: 20vh;
 }
 .hueta i{
-	width: 600px;
+	max-width: 600px;
 	height: 2px;
 	background-color: #15a4fa;
 	display: block;
@@ -132,7 +133,7 @@ header .lot{
 }
 .block1{
     width: 100%;
-    height: 340px;
+    max-height: 340px;
 	background-color: #f6f9f9;
 	font-family: 'Lato', sans-serif;
 }
@@ -145,6 +146,7 @@ header .lot{
 	width: 100%;
     height: 900px;
 	background-color:#f6f9f9;
+	display: none;
 	
 }
 .block4{
@@ -168,7 +170,7 @@ h2{
 	line-height: 1.5;
 }
 .center2{
-    width: 1150px;
+    max-width: 1150px;
     height: 100%;
 	margin: 0 auto;
 
@@ -191,7 +193,7 @@ h2{
 	display: inline-block;
 }
 .f{
-	width: 260px;
+	max-width: 260px;
 	height: 100px;
 	margin-left: 20px;
 	text-align: center;
@@ -214,7 +216,7 @@ h3{
 	line-height: 1.5;
 }
 .t{
-	width: 260px;
+	max-width: 260px;
 	height: 100px;
 	margin-right: 60px;
 	text-align: center;
@@ -222,7 +224,7 @@ h3{
 	float: right;
 }
 .y{
-	width: 260px;
+	max-width: 260px;
 	height: 100px;
 	margin-left: 420px;
 	text-align: center;
@@ -237,7 +239,7 @@ h3{
 	font-family: 'Lato', sans-serif;
 }
 .center3{
-	width: 1150px;
+	max-width: 1150px;
     height: 170px;
 	margin: 0 auto;
 	text-align: center;
@@ -247,7 +249,7 @@ h3{
 	display: inline-block;
 	margin-top: 80px;
 	background-image: url('./im/Normal.png');
-	width: 360px;
+	max-width: 360px;
 	height: 260px;
 }
 .im1:hover{}	
@@ -292,13 +294,13 @@ h3{
 	opacity: 0.9;
 }
 .ft{
-	width: 1150px;
+	max-width: 1150px;
 	height: 90px;
 	background: white;
 	margin: 0 auto;
 }
 .u1{
-	width: 500px;
+	max-width: 500px;
 	height: 100%;
 	margin: 0 auto;
 
@@ -418,7 +420,7 @@ display: inline-block;
 	background-image: url('./im/Hober7676.png');
 }
 .ob{
-	width: 200px;
+	max-width: 200px;
 	height: 40px;
 	
 	display: inline-block;
